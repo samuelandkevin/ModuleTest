@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8AE84C5391FC326216E7437C /* Pods_ModuleTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8603FB63E3BC7AC4B80CA3C5 /* Pods_ModuleTest_Example.framework */; };
+		A2FCAF8328CD729900B06D92 /* ModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FCAF7F28CD729900B06D92 /* ModuleTest.swift */; };
+		A2FCAF8428CD729900B06D92 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = A2FCAF8128CD729900B06D92 /* .gitkeep */; };
 		CFA1A29CE139EEE3F595E610 /* Pods_ModuleTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F3F0AF88DA446C093CD384 /* Pods_ModuleTest_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		8603FB63E3BC7AC4B80CA3C5 /* Pods_ModuleTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F67C4E7E420DEB445AC92FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		97F3F0AF88DA446C093CD384 /* Pods_ModuleTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FCAF7F28CD729900B06D92 /* ModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleTest.swift; sourceTree = "<group>"; };
+		A2FCAF8128CD729900B06D92 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B285079B61AECFBCCE3BA09D /* Pods-ModuleTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-ModuleTest_Tests/Pods-ModuleTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F99079543AEFA67CCF44B10D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A2FCAF7C28CD729900B06D92 /* ModuleTest */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ModuleTest */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +162,32 @@
 				F99079543AEFA67CCF44B10D /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A2FCAF7C28CD729900B06D92 /* ModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCAF7D28CD729900B06D92 /* Classes */,
+				A2FCAF8028CD729900B06D92 /* Assets */,
+			);
+			name = ModuleTest;
+			path = ../ModuleTest;
+			sourceTree = "<group>";
+		};
+		A2FCAF7D28CD729900B06D92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCAF7F28CD729900B06D92 /* ModuleTest.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A2FCAF8028CD729900B06D92 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A2FCAF8128CD729900B06D92 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +279,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				A2FCAF8428CD729900B06D92 /* .gitkeep in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2FCAF8328CD729900B06D92 /* ModuleTest.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
