@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ModuleTest/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "ModuleTest/Classes/**/*",
+  "swift_version": "5.0"
 }
